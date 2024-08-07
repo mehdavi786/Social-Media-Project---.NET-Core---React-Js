@@ -1,0 +1,22 @@
+.chat-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.chat-messages {
+    flex-grow: 1;
+    overflow-y: auto;
+}
+
+.chat-input {
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.persons {
+    position: sticky;
+}

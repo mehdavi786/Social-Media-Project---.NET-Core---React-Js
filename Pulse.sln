@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pulse.Server", "Pulse.Server\Pulse.Server.csproj", "{FDDF099A-4C1F-4298-91A0-32953B5D8F3E}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "pulse.client", "pulse.client\pulse.client.esproj", "{9E1E118B-C5FB-41BC-8122-5A679BD71FEB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FDDF099A-4C1F-4298-91A0-32953B5D8F3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDDF099A-4C1F-4298-91A0-32953B5D8F3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDDF099A-4C1F-4298-91A0-32953B5D8F3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDDF099A-4C1F-4298-91A0-32953B5D8F3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E1E118B-C5FB-41BC-8122-5A679BD71FEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E1E118B-C5FB-41BC-8122-5A679BD71FEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E1E118B-C5FB-41BC-8122-5A679BD71FEB}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{9E1E118B-C5FB-41BC-8122-5A679BD71FEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E1E118B-C5FB-41BC-8122-5A679BD71FEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E1E118B-C5FB-41BC-8122-5A679BD71FEB}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E5E65257-132E-42E0-B5F7-88DFFD93E576}
+	EndGlobalSection
+EndGlobal
